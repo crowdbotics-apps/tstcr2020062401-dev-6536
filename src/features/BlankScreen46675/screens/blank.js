@@ -1,20 +1,700 @@
-import React from "react";
-import { View, Image, ImageBackground } from "react-native";
-import { withStyles, Text, Button, CheckBox, Radio, Toggle, Icon, Input, Datepicker } from 'react-native-ui-kitten';
-import Slider from '@react-native-community/slider';
+import React from "react"
+import { View, Image, ImageBackground } from "react-native"
+import {
+  withStyles,
+  Text,
+  Button,
+  CheckBox,
+  Radio,
+  Toggle,
+  Icon,
+  Input,
+  Datepicker
+} from "react-native-ui-kitten"
+import Slider from "@react-native-community/slider"
 
 export class _Blank extends React.Component {
   static navigationOptions = {
     title: "Blank".toUpperCase()
-  };
+  }
 
-  state = { }
+  state = {}
 
-  render = () => <View style={this.props.themedStyle.container}></View>;
+  render = () => (
+    <View
+      style={{
+        width: "100%",
+        height: "100%",
+        marginLeft: "0pt",
+        marginRight: "0pt",
+        marginTop: "0pt",
+        marginBottom: "0pt",
+        paddingLeft: "0pt",
+        paddingRight: "0pt",
+        paddingTop: "0pt",
+        paddingBottom: "0pt",
+        overflow: "visible",
+        textAlign: "left",
+        verticalAlign: "baseline",
+        fontSize: "20pt",
+        color: "#000000",
+        backgroundColor: "#ffffff",
+        fontStyle: "normal",
+        fontWeight: "normal",
+        fontFamily: "System",
+        flexDirection: "column",
+        flexWrap: "wrap",
+        justifyContent: "flex-start",
+        alignItems: "stretch",
+        alignContent: "stretch",
+        borderColor: "#000000",
+        borderStyle: "solid",
+        borderWidth: "0pt",
+        borderLeftWidth: "0pt",
+        borderRightWidth: "0pt",
+        borderTopWidth: "0pt",
+        borderBottomWidth: "0pt",
+        borderRadius: "0pt",
+        backgroundSize: "auto"
+      }}
+    >
+      <View
+        style={{
+          width: "100%",
+          height: "100%",
+          marginLeft: "0pt",
+          marginRight: "0pt",
+          marginTop: "0pt",
+          marginBottom: "0pt",
+          paddingLeft: "0pt",
+          paddingRight: "0pt",
+          paddingTop: "0pt",
+          paddingBottom: "0pt",
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: "20pt",
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          fontFamily: "System",
+          flexDirection: "column",
+          flexWrap: "wrap",
+          justifyContent: "flex-start",
+          alignItems: "stretch",
+          alignContent: "stretch",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: "0pt",
+          borderLeftWidth: "0pt",
+          borderRightWidth: "0pt",
+          borderTopWidth: "0pt",
+          borderBottomWidth: "0pt",
+          borderRadius: "0pt",
+          backgroundSize: "auto"
+        }}
+      >
+        <View
+          style={{
+            width: "100%",
+            height: "50%",
+            marginLeft: "0pt",
+            marginRight: "0pt",
+            marginTop: "0pt",
+            marginBottom: "0pt",
+            paddingLeft: "0pt",
+            paddingRight: "0pt",
+            paddingTop: "0pt",
+            paddingBottom: "0pt",
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: "20pt",
+            color: "#000000",
+            backgroundColor: "#ffffff",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            fontFamily: "System",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: "0pt",
+            borderLeftWidth: "0pt",
+            borderRightWidth: "0pt",
+            borderTopWidth: "0pt",
+            borderBottomWidth: "0pt",
+            borderRadius: "0pt",
+            backgroundSize: "auto"
+          }}
+        >
+          <View
+            style={{
+              width: "100%",
+              height: "100%",
+              marginLeft: "0pt",
+              marginRight: "0pt",
+              marginTop: "0pt",
+              marginBottom: "0pt",
+              paddingLeft: "0pt",
+              paddingRight: "0pt",
+              paddingTop: "0pt",
+              paddingBottom: "0pt",
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: "20pt",
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              fontFamily: "System",
+              flexDirection: "column",
+              flexWrap: "wrap",
+              justifyContent: "flex-start",
+              alignItems: "stretch",
+              alignContent: "stretch",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: "0pt",
+              borderLeftWidth: "0pt",
+              borderRightWidth: "0pt",
+              borderTopWidth: "0pt",
+              borderBottomWidth: "0pt",
+              borderRadius: "0pt",
+              backgroundSize: "auto"
+            }}
+          >
+            <View
+              style={{
+                width: "100%",
+                height: "50%",
+                marginLeft: "0pt",
+                marginRight: "0pt",
+                marginTop: "0pt",
+                marginBottom: "0pt",
+                paddingLeft: "0pt",
+                paddingRight: "0pt",
+                paddingTop: "0pt",
+                paddingBottom: "0pt",
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: "20pt",
+                color: "#000000",
+                backgroundColor: "#ffffff",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontFamily: "System",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: "0pt",
+                borderLeftWidth: "0pt",
+                borderRightWidth: "0pt",
+                borderTopWidth: "0pt",
+                borderBottomWidth: "0pt",
+                borderRadius: "0pt",
+                backgroundSize: "auto"
+              }}
+            >
+              <View
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  marginLeft: "0pt",
+                  marginRight: "0pt",
+                  marginTop: "0pt",
+                  marginBottom: "0pt",
+                  paddingLeft: "0pt",
+                  paddingRight: "0pt",
+                  paddingTop: "0pt",
+                  paddingBottom: "0pt",
+                  overflow: "visible",
+                  textAlign: "left",
+                  verticalAlign: "baseline",
+                  fontSize: "20pt",
+                  color: "#000000",
+                  backgroundColor: "#ffffff",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontFamily: "System",
+                  flexDirection: "row",
+                  flexWrap: "wrap",
+                  justifyContent: "flex-start",
+                  alignItems: "stretch",
+                  alignContent: "stretch",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: "0pt",
+                  borderLeftWidth: "0pt",
+                  borderRightWidth: "0pt",
+                  borderTopWidth: "0pt",
+                  borderBottomWidth: "0pt",
+                  borderRadius: "0pt",
+                  backgroundSize: "auto"
+                }}
+              >
+                <View
+                  style={{
+                    width: "10pt",
+                    height: "100%",
+                    marginLeft: "0pt",
+                    marginRight: "0pt",
+                    marginTop: "0pt",
+                    marginBottom: "0pt",
+                    paddingLeft: "0pt",
+                    paddingRight: "0pt",
+                    paddingTop: "0pt",
+                    paddingBottom: "0pt",
+                    overflow: "visible",
+                    textAlign: "left",
+                    verticalAlign: "baseline",
+                    fontSize: "20pt",
+                    color: "#000000",
+                    backgroundColor: "#ffffff",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontFamily: "System",
+                    flexDirection: "column",
+                    flexWrap: "wrap",
+                    justifyContent: "flex-start",
+                    alignItems: "stretch",
+                    alignContent: "stretch",
+                    borderColor: "#000000",
+                    borderStyle: "solid",
+                    borderWidth: "0pt",
+                    borderLeftWidth: "0pt",
+                    borderRightWidth: "0pt",
+                    borderTopWidth: "0pt",
+                    borderBottomWidth: "0pt",
+                    borderRadius: "0pt",
+                    backgroundSize: "auto"
+                  }}
+                >
+                  <Icon
+                    iconFont="Eva Design Icons"
+                    name="facebook"
+                    width={10}
+                    height={10}
+                    style={{
+                      marginLeft: "0pt",
+                      marginRight: "0pt",
+                      marginTop: "5pt",
+                      marginBottom: "5pt",
+                      paddingLeft: "5pt",
+                      paddingRight: "5pt",
+                      paddingTop: "5pt",
+                      paddingBottom: "5pt",
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: "0pt",
+                      borderLeftWidth: "0pt",
+                      borderRightWidth: "0pt",
+                      borderTopWidth: "0pt",
+                      borderBottomWidth: "0pt",
+                      borderRadius: "0pt",
+                      fontSize: "10pt",
+                      color: "#1a3ed1",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "normal",
+                      fontFamily: "System"
+                    }}
+                  />
+                </View>
+                <View
+                  style={{
+                    width: "50%",
+                    height: "100%",
+                    marginLeft: "0pt",
+                    marginRight: "0pt",
+                    marginTop: "0pt",
+                    marginBottom: "0pt",
+                    paddingLeft: "0pt",
+                    paddingRight: "0pt",
+                    paddingTop: "0pt",
+                    paddingBottom: "0pt",
+                    overflow: "visible",
+                    textAlign: "left",
+                    verticalAlign: "baseline",
+                    fontSize: "20pt",
+                    color: "#000000",
+                    backgroundColor: "#ffffff",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontFamily: "System",
+                    flexDirection: "column",
+                    flexWrap: "wrap",
+                    justifyContent: "flex-start",
+                    alignItems: "stretch",
+                    alignContent: "stretch",
+                    borderColor: "#000000",
+                    borderStyle: "solid",
+                    borderWidth: "0pt",
+                    borderLeftWidth: "0pt",
+                    borderRightWidth: "0pt",
+                    borderTopWidth: "0pt",
+                    borderBottomWidth: "0pt",
+                    borderRadius: "0pt",
+                    backgroundSize: "auto"
+                  }}
+                >
+                  <View
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      marginLeft: "0pt",
+                      marginRight: "0pt",
+                      marginTop: "0pt",
+                      marginBottom: "0pt",
+                      paddingLeft: "0pt",
+                      paddingRight: "0pt",
+                      paddingTop: "0pt",
+                      paddingBottom: "0pt",
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      fontSize: "20pt",
+                      color: "#000000",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "normal",
+                      fontFamily: "System",
+                      flexDirection: "row",
+                      flexWrap: "wrap",
+                      justifyContent: "flex-start",
+                      alignItems: "stretch",
+                      alignContent: "stretch",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: "0pt",
+                      borderLeftWidth: "0pt",
+                      borderRightWidth: "0pt",
+                      borderTopWidth: "0pt",
+                      borderBottomWidth: "0pt",
+                      borderRadius: "0pt",
+                      backgroundSize: "auto"
+                    }}
+                  >
+                    <View
+                      style={{
+                        width: "50%",
+                        height: "100%",
+                        marginLeft: "0pt",
+                        marginRight: "0pt",
+                        marginTop: "0pt",
+                        marginBottom: "0pt",
+                        paddingLeft: "0pt",
+                        paddingRight: "0pt",
+                        paddingTop: "0pt",
+                        paddingBottom: "0pt",
+                        overflow: "visible",
+                        textAlign: "left",
+                        verticalAlign: "baseline",
+                        fontSize: "20pt",
+                        color: "#000000",
+                        backgroundColor: "#ffffff",
+                        fontStyle: "normal",
+                        fontWeight: "normal",
+                        fontFamily: "System",
+                        flexDirection: "column",
+                        flexWrap: "wrap",
+                        justifyContent: "flex-start",
+                        alignItems: "stretch",
+                        alignContent: "stretch",
+                        borderColor: "#000000",
+                        borderStyle: "solid",
+                        borderWidth: "0pt",
+                        borderLeftWidth: "0pt",
+                        borderRightWidth: "0pt",
+                        borderTopWidth: "0pt",
+                        borderBottomWidth: "0pt",
+                        borderRadius: "0pt",
+                        backgroundSize: "auto"
+                      }}
+                    />
+                    <View
+                      style={{
+                        width: "50%",
+                        height: "100%",
+                        marginLeft: "0pt",
+                        marginRight: "0pt",
+                        marginTop: "0pt",
+                        marginBottom: "0pt",
+                        paddingLeft: "0pt",
+                        paddingRight: "0pt",
+                        paddingTop: "0pt",
+                        paddingBottom: "0pt",
+                        overflow: "visible",
+                        textAlign: "left",
+                        verticalAlign: "baseline",
+                        fontSize: "20pt",
+                        color: "#000000",
+                        backgroundColor: "#ffffff",
+                        fontStyle: "normal",
+                        fontWeight: "normal",
+                        fontFamily: "System",
+                        flexDirection: "column",
+                        flexWrap: "wrap",
+                        justifyContent: "flex-start",
+                        alignItems: "stretch",
+                        alignContent: "stretch",
+                        borderColor: "#000000",
+                        borderStyle: "solid",
+                        borderWidth: "0pt",
+                        borderLeftWidth: "0pt",
+                        borderRightWidth: "0pt",
+                        borderTopWidth: "0pt",
+                        borderBottomWidth: "0pt",
+                        borderRadius: "0pt",
+                        backgroundSize: "auto"
+                      }}
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={{
+                width: "100%",
+                height: "50%",
+                marginLeft: "0pt",
+                marginRight: "0pt",
+                marginTop: "0pt",
+                marginBottom: "0pt",
+                paddingLeft: "0pt",
+                paddingRight: "0pt",
+                paddingTop: "0pt",
+                paddingBottom: "0pt",
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: "20pt",
+                color: "#000000",
+                backgroundColor: "#ffffff",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontFamily: "System",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: "0pt",
+                borderLeftWidth: "0pt",
+                borderRightWidth: "0pt",
+                borderTopWidth: "0pt",
+                borderBottomWidth: "0pt",
+                borderRadius: "0pt",
+                backgroundSize: "auto"
+              }}
+            />
+          </View>
+        </View>
+        <View
+          style={{
+            width: "100%",
+            height: "50%",
+            marginLeft: "0pt",
+            marginRight: "0pt",
+            marginTop: "0pt",
+            marginBottom: "0pt",
+            paddingLeft: "0pt",
+            paddingRight: "0pt",
+            paddingTop: "0pt",
+            paddingBottom: "0pt",
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: "20pt",
+            color: "#000000",
+            backgroundColor: "#ffffff",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            fontFamily: "System",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: "0pt",
+            borderLeftWidth: "0pt",
+            borderRightWidth: "0pt",
+            borderTopWidth: "0pt",
+            borderBottomWidth: "0pt",
+            borderRadius: "0pt",
+            backgroundSize: "auto"
+          }}
+        >
+          <View
+            style={{
+              width: "100%",
+              height: "100%",
+              marginLeft: "0pt",
+              marginRight: "0pt",
+              marginTop: "0pt",
+              marginBottom: "0pt",
+              paddingLeft: "0pt",
+              paddingRight: "0pt",
+              paddingTop: "0pt",
+              paddingBottom: "0pt",
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: "20pt",
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              fontFamily: "System",
+              flexDirection: "column",
+              flexWrap: "wrap",
+              justifyContent: "flex-start",
+              alignItems: "stretch",
+              alignContent: "stretch",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: "0pt",
+              borderLeftWidth: "0pt",
+              borderRightWidth: "0pt",
+              borderTopWidth: "0pt",
+              borderBottomWidth: "0pt",
+              borderRadius: "0pt",
+              backgroundSize: "auto"
+            }}
+          >
+            <View
+              style={{
+                width: "100%",
+                height: "50%",
+                marginLeft: "0pt",
+                marginRight: "0pt",
+                marginTop: "0pt",
+                marginBottom: "0pt",
+                paddingLeft: "0pt",
+                paddingRight: "0pt",
+                paddingTop: "0pt",
+                paddingBottom: "0pt",
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: "20pt",
+                color: "#000000",
+                backgroundColor: "#ffffff",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontFamily: "System",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: "0pt",
+                borderLeftWidth: "0pt",
+                borderRightWidth: "0pt",
+                borderTopWidth: "0pt",
+                borderBottomWidth: "0pt",
+                borderRadius: "0pt",
+                backgroundSize: "auto"
+              }}
+            />
+            <View
+              style={{
+                width: "100%",
+                height: "50%",
+                marginLeft: "0pt",
+                marginRight: "0pt",
+                marginTop: "0pt",
+                marginBottom: "0pt",
+                paddingLeft: "0pt",
+                paddingRight: "0pt",
+                paddingTop: "0pt",
+                paddingBottom: "0pt",
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: "20pt",
+                color: "#000000",
+                backgroundColor: "#ffffff",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontFamily: "System",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: "0pt",
+                borderLeftWidth: "0pt",
+                borderRightWidth: "0pt",
+                borderTopWidth: "0pt",
+                borderBottomWidth: "0pt",
+                borderRadius: "0pt",
+                backgroundSize: "auto"
+              }}
+            >
+              <Button
+                style={{
+                  width: "100%",
+                  marginLeft: "0pt",
+                  marginRight: "0pt",
+                  marginTop: "5pt",
+                  marginBottom: "5pt",
+                  paddingLeft: "5pt",
+                  paddingRight: "5pt",
+                  paddingTop: "5pt",
+                  paddingBottom: "5pt",
+                  overflow: "visible",
+                  verticalAlign: "baseline",
+                  fontSize: "20pt",
+                  color: "#000000",
+                  backgroundColor: "#3366FF",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontFamily: "System",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: "0pt",
+                  borderLeftWidth: "0pt",
+                  borderRightWidth: "0pt",
+                  borderTopWidth: "0pt",
+                  borderBottomWidth: "0pt",
+                  borderRadius: "0pt"
+                }}
+                onPress={() => alert("Pressed!")}
+              >
+                Press me!
+              </Button>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  )
 }
 
 export default Blank = withStyles(_Blank, theme => ({
   container: {
     backgroundColor: theme["color-basic-100"]
   }
-}));
+}))
